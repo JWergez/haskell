@@ -13,5 +13,3 @@ maximoPar ((x,y):xs) = max x y : maximoPar xs
 minimoPar :: [(Int,Int)] -> [(Int)]
 minimoPar [] = []
 minimoPar ((x,y):xs) = min x y : minimoPar xs
-
-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
